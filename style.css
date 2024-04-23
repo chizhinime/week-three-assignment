@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Times, serif;
+    background-color: #c6f7e0;
+    color: #02240f;
+    line-height: 2.5;
+}
+
+header {
+    background-color: #14f76b;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px #02240f;
+}
+
+header nav img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: #02240f;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #02240f;
+    font-weight: bold;
+}
+footer {
+    background-color: #14f76b;
+    color: #02240f;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
